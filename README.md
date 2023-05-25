@@ -16,11 +16,11 @@
 
 В качестве примера возьмем котировки Сбербанка.
 
-Результат SMA-индикатора:
+# Результат SMA-индикатора:
 ![Image alt](https://github.com/neznayu-hub/getting-quotes-in-realtime/blob/main/pictures/SMA.jpg)
 
-Результат RSI-индикатора:
+# Результат RSI-индикатора:
 ![Image alt](https://github.com/neznayu-hub/getting-quotes-in-realtime/blob/main/pictures/RSI.jpg)
 
-Результат EMA-индикатора:
+# Результат EMA-индикатора:
 ![Image alt](https://github.com/neznayu-hub/getting-quotes-in-realtime/blob/main/pictures/EMA.jpg)
