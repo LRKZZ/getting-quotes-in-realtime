@@ -24,3 +24,9 @@
 
 # Результат EMA-индикатора:
 ![Image alt](https://github.com/neznayu-hub/getting-quotes-in-realtime/blob/main/pictures/EMA.jpg)
+
+# Связаться
+
+В случае, если возникнут вопросы - можете написать мне в Discord: ugly code enjoyer#7252
+
+
