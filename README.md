@@ -29,4 +29,4 @@
 
 В случае, если возникнут вопросы - можете написать мне в Discord: 
 
-
+![Image alt](https://github.com/neznayu-hub/getting-quotes-in-realtime/blob/main/pictures/Discordik.jpg)
