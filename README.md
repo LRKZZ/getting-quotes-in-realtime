@@ -11,3 +11,9 @@
 
 
 Для удобства вместе с кодом загрузил файл, которым пользовался сам. (Название - "MOEX.SBER_SMAL_220501_230523 (2).csv")
+
+# Пример работоспособности
+
+В качестве примера возьмем котировки Сбербанка.
+Результат SMA-индикатора:
+![Image alt](https://github.com/neznayu-hub/getting-quotes-in-realtime/blob/main/pictures/SMA.jpg)
