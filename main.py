@@ -5,11 +5,17 @@ import matplotlib.pyplot as plt
 from datetime import date
 from tinkoff.invest import Client, RequestError, CandleInterval, HistoricCandle
 from datetime import datetime, timedelta
+from dotenv import load_dotenv
+import os
 
 
-token = "enter-your-token-there" # указываем токен Tinkoff API.
+load_dotenv()
 
-newfigi = "BBG004730N88" #Указываем FIGI-код акции, котировки которой мы будем получать. Сайт со всеми (почти :)) котировками: https://aelectrik.ru/stati/ssangyong-korando-skhema-can-shiny/figi-akciy-spisok/
+token = os.getenv('token')
+
+newfigi = os.getenv('newfigi')
+
+stock = os.getenv('stock')
 
 plt.style.use('fivethirtyeight') #строка грубо говоря для красоты графика RSI
 count_added_rows = 0 # объявляем счетчик добавленных строк
@@ -187,14 +193,11 @@ while True:
         except RequestError as e:
             print("Ошибка при обращении к API:", e)
     elif response == "2":
-        print("Введите название акции: ")  # нужно только для того, чтобы название акции было написано на графике, не более
-        stock = input()
         Stock_SMA(stock)
         Stock_EMA(stock)
         Stock_RSI(stock)
     else:
         break
-
 
 
 
