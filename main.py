@@ -13,7 +13,7 @@ load_dotenv()
 
 token = os.getenv('token')
 
-newfigi = os.getenv('newfigi')
+newfigi = os.getenv('new_figi')
 
 stock = os.getenv('stock')
 
