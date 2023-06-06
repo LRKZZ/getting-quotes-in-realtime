@@ -11,11 +11,11 @@ import os
 
 load_dotenv()
 
-token = os.getenv('token')
+token = os.getenv('TOKEN')
 
-newfigi = os.getenv('new_figi')
+newfigi = os.getenv('NEW_FIGI')
 
-stock = os.getenv('stock')
+stock = os.getenv('STOCK')
 
 plt.style.use('fivethirtyeight') #строка грубо говоря для красоты графика RSI
 count_added_rows = 0 # объявляем счетчик добавленных строк
